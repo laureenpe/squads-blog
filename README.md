@@ -5,4 +5,5 @@ Este es el ejercicio evaluado squads-blog del SPrint 03 POO
 * Imprime los datos de todas las miembros del squad en un HTML
 - pUNTOS eXTRAS:
 - aGREGAR UNA FOTO POR CADA MIEMBRO
-- AGREGAR ESTUDLOS
+- AGREGAR ESTUDIOS
+- Entre Otros...
