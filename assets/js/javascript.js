@@ -77,7 +77,7 @@ function onClickComment(element) { //esta es mi funcion onclick
 
 function likeAdd(id) {
     //recuperar el id para saber cuantos like hay en cada uno
-    var fComment = (commentArray.filter(comment => comment.id_miembro == id))[0];
-    fComment.likes++;
+    var fComment = (commentArray.filter(comment => comment.id_miembro == id))[0]; //filter retorna un array, y necesito el primer elemento que encuentre
+    fComment.likes++; //al objeto sumale 
     document.getElementById("like_" + id).innerHTML = fComment.likes;
 }
